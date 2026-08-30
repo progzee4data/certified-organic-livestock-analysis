@@ -63,3 +63,7 @@ This project evaluates the regional distribution, longitudinal trends, and feder
 ```excel
 =IFERROR((F4 - E4) / E4, "No data")
 ```
+## 📌 Background & Context
+This project was completed as part of the **ALX Africa Data Science Program** to analyze regional trends, federal subsidy allocations, and certifier accreditation data for US certified organic livestock between 2008 and 2011. 
+
+Through state-level agricultural records, dynamic spreadsheets were developed utilizing advanced lookup functions (`VLOOKUP`, `HLOOKUP`), regex status classification (`REGEXMATCH`, `REGEXREPLACE`), and string parsing. Statistical sampling methodologies ($n=25$ vs. $n=10$) were executed to test margin of error convergence and probability distributions—proving that an increase in sample size reduces the margin of error by approximately 43.00% to ensure empirical data integrity across state operations.
