@@ -1,8 +1,7 @@
-# alx-certified-organic-livestock-analysis
 # Certified Organic Livestock & Subsidies Analysis (2008–2011)
 
 ## Executive Summary
-This project evaluates the growth, distribution, and federal subsidy allocations for US certified organic livestock between 2008 and 2011. Utilizing raw agricultural data and certifier accreditation records, dynamic data models were constructed in **Google Sheets** using advanced lookup functions, string parsing, and regular expressions (`REGEX`).
+This project evaluates the regional distribution, longitudinal trends, and federal subsidy allocations for US certified organic livestock across two reporting periods. Utilizing state level agricultural records and certifier accreditation data, dynamic spreadsheets were constructed using advanced lookup functions, string parsing, and regular expression (REGEX) status classification. To test statistical validity, random sampling methodologies were executed to evaluate margin of error convergence, standard error behavior, and empirical probability distributions—providing a framework for modeling subsidy trends and verifying data integrity across state operations.
 
 ### Key Business Insights
 * **Subsidized Cost Escalation:** Total subsidized expenditures for organic livestock surged dramatically from **$7.9M in 2008** to **$19.0M in 2011**, driven primarily by a **136% increase in subsidized milk cow costs** ($5.39M to $12.74M) and a **320% increase in beef cow costs** ($725K to $3.05M).
