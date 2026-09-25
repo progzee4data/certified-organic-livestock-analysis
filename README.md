@@ -37,7 +37,7 @@ This project evaluates the regional distribution, longitudinal trends, and feder
 * **HLOOKUP Aggregation:** Dynamically retrieved national totals for 2008 and 2011 livestock across horizontal tables:
   ```excel
   =HLOOKUP("Beef cows", 'State Organic Livestock'!$D$4:$I$7, 4, FALSE)
-```
+
 * **VLOOKUP Price Mapping & Subsidies Costing: Applied vertical lookup against unordered price tables to calculate total subsidized valuations while managing cell locking ($):
 ```excel
 =D4 * VLOOKUP(A4, $A$14:$C$18, 2, FALSE)
